@@ -8,7 +8,7 @@ drone.connect()
 drone.takeOff()
 time.sleep(1)
 i = 0
-while (drone.battery() > 10 & i<4) :
+while (i<4) :
     drone.forward(50)
     time.sleep(1)
     drone.right(50)
